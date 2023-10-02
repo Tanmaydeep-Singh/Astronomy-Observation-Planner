@@ -1,8 +1,11 @@
+import DateSelector from '@/components/DatePicker'
 import React from 'react'
 
 function index() {
   return (
-    <div>index</div>
+    <div>index
+    <DateSelector/>
+    </div>
   )
 }
 

@@ -12,7 +12,8 @@
     "framer-motion": "^10.16.4",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "tailwind-datepicker-react": "^1.4.2"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -22,7 +23,6 @@
     "daisyui": "^3.8.2",
     "eslint": "latest",
     "eslint-config-next": "latest",
-    "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
   }
