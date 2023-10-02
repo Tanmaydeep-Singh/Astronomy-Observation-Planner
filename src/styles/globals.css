@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+  
+  * {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  
+  .text-placeholder {
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    flex: 1;
+  }
+  
