@@ -8,7 +8,7 @@ const options = {
 	clearBtn: true,
 
 	theme: {
-		background: "bg-gray-700 dark:bg-gray-800",
+		background: "bg-white",
 		todayBtn: "",
 		clearBtn: "",
 		icons: "",
@@ -30,8 +30,8 @@ const options = {
 
 
 function DateSelector() {
- // eslint-disable-next-line react-hooks/rules-of-hooks
- const [show, setShow] = useState<boolean>(false)
+
+	const [show, setShow] = useState<boolean>(false)
 	const handleChange = (selectedDate: Date) => {
 		console.log(selectedDate)
 	}

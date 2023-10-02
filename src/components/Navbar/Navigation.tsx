@@ -12,12 +12,12 @@ const variants = {
 };
 
 export const Navigation = () => (
-  <motion.ul variants={variants} className=" relative z-20 p-4">
-      <MenuItem  key={1} />
-      <MenuItem  key={2} />
-      <MenuItem  key={3} />
-      <MenuItem  key={4} />
-      <MenuItem  key={5} />
+  <motion.ul variants={variants} className=" relative z-20 p-4 -left-8">
+      <MenuItem  key={1} title={"Home"} link={"/"} />
+      <MenuItem  key={2} title={"About"} link={"about"}/>
+      <MenuItem  key={3} title={""} link={"/"}/>
+      <MenuItem  key={4} title={""} link={"/"}/>
+      <MenuItem  key={5} title={"APOD"} link={"apod"}/>
 
   </motion.ul>
 );
