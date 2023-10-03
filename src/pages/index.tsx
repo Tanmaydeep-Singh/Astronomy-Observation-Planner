@@ -1,12 +1,27 @@
 import DateSelector from '@/components/DatePicker'
-import React from 'react'
+import { motion } from 'framer-motion'
+import React, { useRef } from 'react'
+import rocket from '../styles/rocket.png'
+import Image from 'next/image';
 
-function index() {
+
+function Index() {
+  const constraintsRef = useRef(null);
+
+
   return (
     <div>index
     <DateSelector/>
+    <div className=' flex items-center justify-center'> 
+    <motion.div className="w-60 h-60 backdrop-blur-sm bg-white/30 rounded-md" ref={constraintsRef}>
+      <motion.div className=" w-20 h-20 bg-white rounded-[50%]" drag dragConstraints={constraintsRef}>
+      </motion.div>
+    </motion.div>
+    </div>
+    <motion.div    />
+
     </div>
   )
 }
 
-export default index
+export default Index

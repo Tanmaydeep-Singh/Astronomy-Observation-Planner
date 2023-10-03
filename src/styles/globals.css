@@ -12,11 +12,11 @@
     font-family: 'Montserrat', sans-serif;
   }
   
+    
   
-  .text-placeholder {
-    border-radius: 5px;
-    width: 200px;
-    height: 20px;
-    flex: 1;
-  }
-  
+.item {
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: inherit;
+}
