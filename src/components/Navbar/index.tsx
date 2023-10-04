@@ -40,7 +40,7 @@ function Navbar() {
             transition={{ duration: 1.5 }}>
             <div className="navbar bg-base-100" >
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <a className="btn btn-ghost normal-case text-xl">AOP</a>
                 </div>
                 <div className="flex-3 absolute top-0 right-0 bottom-0">
                     <motion.nav
