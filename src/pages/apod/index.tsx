@@ -27,7 +27,6 @@ function Index() {
         );
         const fetchedData = response.data;
         setData(fetchedData);
-        console.log('Fetched data:', fetchedData);
       } catch (error) {
         console.error('Error fetching APOD data:', error);
       }
@@ -57,9 +56,9 @@ function Index() {
               <Image
                 src={data.url}
                 alt="Apod Image"
-                width={500}
-                height={500}
-                className="object-cover rounded-xl my-5"
+                width={300}
+                height={300}
+                className="object-cover rounded-xl my-5 md:w-[500px] md:h-[500px]"
               />
             </Link>
           </motion.div>
